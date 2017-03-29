@@ -1,0 +1,6 @@
+﻿  Baek1092.cpp
+Baek1092.obj : error LNK2005: "bool __cdecl cmp(int,int)" (?cmp@@YA_NHH@Z)이(가) asd.obj에 이미 정의되어 있습니다.
+Baek1092.obj : error LNK2005: "int * lim" (?lim@@3PAHA)이(가) asd.obj에 이미 정의되어 있습니다.
+Baek1092.obj : error LNK2005: "int * box" (?box@@3PAHA)이(가) asd.obj에 이미 정의되어 있습니다.
+Baek1092.obj : error LNK2005: "int * num" (?num@@3PAHA)이(가) asd.obj에 이미 정의되어 있습니다.
+C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\Algorithm.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
