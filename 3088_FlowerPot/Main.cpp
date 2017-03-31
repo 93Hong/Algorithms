@@ -5,44 +5,20 @@
 using namespace std;
 
 int main() {
-	int N;
-	
+	int N, num1, num2, num3, re = 0;
+
+	bool arr[1000000] = { false };
+
 	scanf("%d", &N);
 
-	int** pot = new int*[N];
-	for (int i = 0; i < N; ++i)
-		pot[i] = new int[3];
-
 	for (int i = 0; i < N; i++) {
-		scanf("%d", &pot[i][0]); scanf("%d", &pot[i][1]); scanf("%d", &pot[i][2]);
+		scanf("%d", &num1); scanf("%d", &num2); scanf("%d", &num3);
+		if (!arr[num1] && !arr[num2] && !arr[num3])
+			re++;
+		arr[num1] = true;
+		arr[num2] = true;
+		arr[num3] = true;
 	}
 
-	int k=0, cnt=1;
-	bool flag = false;
-	
-
-	for (int i = N - 1; i > 0; i--) {
-		flag = false;
-		printf("\n%d %d 번째 화분 비교\n", i, i-1);
-		for (int j = 0; j < 3; j++) {
-			printf("%d %d\n", pot[i][j], pot[i - 1][k]);
-			if (pot[i][j] == pot[i - 1][k]) {
-				flag = true;
-				break;
-			}
-			if (j == 2) {
-				printf("\n");
-				k++;
-				if (k == 3)
-					break;
-				j = -1;
-			}	
-		}
-		k = 0;
-		if (!flag) {
-			cnt++;
-		}
-	}
-
-	printf("답은 %d\n", cnt);
+	printf("%d\n", re);
 }

@@ -1,0 +1,9 @@
+﻿  Main.cpp
+c:\users\hong\documents\visual studio 2015\algorithm\10828_stack\main.cpp(12): error C2561: 'pop': 함수는 값을 반환해야 합니다.
+  c:\users\hong\documents\visual studio 2015\algorithm\10828_stack\main.cpp(11): note: 'pop' 선언을 참조하십시오.
+c:\users\hong\documents\visual studio 2015\algorithm\10828_stack\main.cpp(16): error C2561: 'size': 함수는 값을 반환해야 합니다.
+  c:\users\hong\documents\visual studio 2015\algorithm\10828_stack\main.cpp(15): note: 'size' 선언을 참조하십시오.
+c:\users\hong\documents\visual studio 2015\algorithm\10828_stack\main.cpp(20): error C2561: 'empty': 함수는 값을 반환해야 합니다.
+  c:\users\hong\documents\visual studio 2015\algorithm\10828_stack\main.cpp(19): note: 'empty' 선언을 참조하십시오.
+c:\users\hong\documents\visual studio 2015\algorithm\10828_stack\main.cpp(24): error C2561: 'top': 함수는 값을 반환해야 합니다.
+  c:\users\hong\documents\visual studio 2015\algorithm\10828_stack\main.cpp(23): note: 'top' 선언을 참조하십시오.
