@@ -1,6 +1,6 @@
 #include <cstring>
 #include <cstdio>
-#include<stack>
+#include <stack>
 #pragma warning(disable: 4996)
 
 using namespace std;
