@@ -29,6 +29,8 @@ int main() {
 				while (!q.empty()) {
 					for (int k = 0; k < 4; k++) {
 						int x = q.front().first + dir[k][0], y = q.front().second + dir[k][1];
+						if (x < 0 || y < 0)
+							continue;
 						if (map[x][y] == 1 && !check[x][y]) {
 							q.push({ x, y });
 							check[x][y] = true;

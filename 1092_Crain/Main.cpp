@@ -17,21 +17,21 @@ int main() {
 		scanf("%d", &lim[i]);
 
 	scanf("%d", &m);
-	for (int i = 0; i<m; i++)
+	for (int i = 0; i < m; i++)
 		scanf("%d", &box[i]);
 
 	sort(lim, lim + n + 1, cmp);
 	sort(box, box + m, cmp);
-	if (box[0]>lim[0]) { //모든 박스를 못 옮기면 -1 출력, 종료.
+	if (box[0] > lim[0]) { //모든 박스를 못 옮기면 -1 출력, 종료.
 		printf("-1\n");
 		return 0;
 	}
 
 	//num[x] : 크레인 x개(무게 제한이 큰 순으로x개)로 들 수 있는 무게를 가진 박스의 개수.
 	int x = 0;
-	for (int i = 0; i<m; i++) {
+	for (int i = 0; i < m; i++) {
 		//크레인의 무게 재한 범위 안에 들면 count
-		if (lim[x + 1]<box[i] && box[i] <= lim[x]) {
+		if (lim[x + 1] < box[i] && box[i] <= lim[x]) {
 			num[x + 1]++;
 		}
 		else {
