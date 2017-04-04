@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1022_Vortex", "1022_Vortex\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3053_TexiGeometry", "3053_TexiGeometry\3053_TexiGeometry.vcxproj", "{80510377-8762-451C-8FF8-DFA261F6EB2C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1149_RGBdistance", "1149_RGBdistance\1149_RGBdistance.vcxproj", "{6A866D94-7134-4F8A-BA6D-EE209726C692}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{80510377-8762-451C-8FF8-DFA261F6EB2C}.Release|x64.Build.0 = Release|x64
 		{80510377-8762-451C-8FF8-DFA261F6EB2C}.Release|x86.ActiveCfg = Release|Win32
 		{80510377-8762-451C-8FF8-DFA261F6EB2C}.Release|x86.Build.0 = Release|Win32
+		{6A866D94-7134-4F8A-BA6D-EE209726C692}.Debug|x64.ActiveCfg = Debug|x64
+		{6A866D94-7134-4F8A-BA6D-EE209726C692}.Debug|x64.Build.0 = Debug|x64
+		{6A866D94-7134-4F8A-BA6D-EE209726C692}.Debug|x86.ActiveCfg = Debug|Win32
+		{6A866D94-7134-4F8A-BA6D-EE209726C692}.Debug|x86.Build.0 = Debug|Win32
+		{6A866D94-7134-4F8A-BA6D-EE209726C692}.Release|x64.ActiveCfg = Release|x64
+		{6A866D94-7134-4F8A-BA6D-EE209726C692}.Release|x64.Build.0 = Release|x64
+		{6A866D94-7134-4F8A-BA6D-EE209726C692}.Release|x86.ActiveCfg = Release|Win32
+		{6A866D94-7134-4F8A-BA6D-EE209726C692}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
