@@ -63,6 +63,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10799_Iron", "10799_Iron\10
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13301_Tile", "13301_Tile\13301_Tile.vcxproj", "{25251662-EA20-401F-851D-3606553A09BB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1977_PerfectSquare", "1977_PerfectSquare\1977_PerfectSquare.vcxproj", "{EC69E55E-4333-47C4-AF28-7EA846EDD738}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -311,6 +313,14 @@ Global
 		{25251662-EA20-401F-851D-3606553A09BB}.Release|x64.Build.0 = Release|x64
 		{25251662-EA20-401F-851D-3606553A09BB}.Release|x86.ActiveCfg = Release|Win32
 		{25251662-EA20-401F-851D-3606553A09BB}.Release|x86.Build.0 = Release|Win32
+		{EC69E55E-4333-47C4-AF28-7EA846EDD738}.Debug|x64.ActiveCfg = Debug|x64
+		{EC69E55E-4333-47C4-AF28-7EA846EDD738}.Debug|x64.Build.0 = Debug|x64
+		{EC69E55E-4333-47C4-AF28-7EA846EDD738}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC69E55E-4333-47C4-AF28-7EA846EDD738}.Debug|x86.Build.0 = Debug|Win32
+		{EC69E55E-4333-47C4-AF28-7EA846EDD738}.Release|x64.ActiveCfg = Release|x64
+		{EC69E55E-4333-47C4-AF28-7EA846EDD738}.Release|x64.Build.0 = Release|x64
+		{EC69E55E-4333-47C4-AF28-7EA846EDD738}.Release|x86.ActiveCfg = Release|Win32
+		{EC69E55E-4333-47C4-AF28-7EA846EDD738}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
