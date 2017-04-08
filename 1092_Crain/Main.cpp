@@ -15,7 +15,7 @@ int main() {
 	scanf("%d", &n);
 	for (int i = 1; i <= n; i++)  //lim[0] = 0 À¸·Î ¼³Á¤µÊ
 		scanf("%d", &lim[i]);
-
+	
 	scanf("%d", &m);
 	for (int i = 0; i < m; i++)
 		scanf("%d", &box[i]);
