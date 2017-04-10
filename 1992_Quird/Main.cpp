@@ -15,14 +15,12 @@ int solve(int x, int y, int n) {
 	int init = map[x][y], m = n / 2;
 	bool check = true;
 
-	for (int i = 0; i < n; i++) {
-		for (int j = 0; j < n; j++) {
+	for (int i = 0; i < n; i++)
+		for (int j = 0; j < n; j++)
 			if (init != map[x + i][y + j]) {
 				check = false;
 				break;
 			}
-		}
-	}
 
 	if (!check) {
 		re[cur++] = '(';
@@ -42,22 +40,13 @@ int main() {
 	int N, num;
 	scanf("%d", &N);
 
-	if (N == 1) {
-		scanf("%d", &num);
-		printf("%d", num);
-		return 1;
-	}
-
-	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < N; j++) {
+	for (int i = 0; i < N; i++)
+		for (int j = 0; j < N; j++)
 			scanf("%1d", &map[i][j]);
-		}
-	}
 
 	solve(0, 0, N);
 
-	for (int i = 0; i < cur; i++) {
+	for (int i = 0; i < cur; i++)
 		printf("%c", re[i]);
-	}
 	return 1;
 }
