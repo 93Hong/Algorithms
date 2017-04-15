@@ -12,18 +12,17 @@ int cmp(char a, char b) {
 	return a < b;
 }
 
-void sol(int len, int index, int c1, int c2) {
-	if (len < L && index == C - 1) {
-		return;
-	}
-	re[len - 1] = wd[index];
-	char c = wd[index];
-	bool isLowercaseVowel = (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
-	if (isLowercaseVowel)
-		c1++;
-	else
-		c2++;
+void sol(int len, int index) {
 	if (L == len) {
+		int c1 = 0, c2 = 0;
+		for (int i = 0; i < L; i++) {
+			char c = re[i];
+			bool isLowercaseVowel = (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
+			if (isLowercaseVowel)
+				c1++;
+			else
+				c2++;
+		}
 		if (c1 > 0 && c2 > 1) {
 			for (int i = 0; i < L; i++)
 				printf("%c", re[i]);
@@ -31,8 +30,9 @@ void sol(int len, int index, int c1, int c2) {
 		}
 		return;
 	}
-	for (int i = index + 1; i < C; i++) {
-		sol(len + 1, i, c1, c2);
+	for (int i = index; i < C; i++) {
+		re[len] = wd[i];
+		sol(len + 1, i + 1);
 	}
 }
 
@@ -48,6 +48,5 @@ int main() {
 
 	sort(wd, wd + C, cmp);
 
-	for (int i = 0; i < C - L + 1; i++)
-		sol(1, i, 0, 0);
+	sol(0, 0);
 }
