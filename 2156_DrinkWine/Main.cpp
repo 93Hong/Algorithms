@@ -4,7 +4,6 @@
 int wine[10002];
 int memo[10002];
 
-
 int main() {
 	int n;
 	scanf("%d", &n);
