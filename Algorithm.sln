@@ -91,6 +91,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1921_ContinueAdd", "1921_Co
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2579_GoUpStair", "2579_GoUpStair\2579_GoUpStair.vcxproj", "{FF9E2D55-245C-4AAD-9A2C-59BE72263259}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1783_Knight", "1783_Knight\1783_Knight.vcxproj", "{C1788911-74E0-4462-8B62-FC362FF57384}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -451,6 +453,14 @@ Global
 		{FF9E2D55-245C-4AAD-9A2C-59BE72263259}.Release|x64.Build.0 = Release|x64
 		{FF9E2D55-245C-4AAD-9A2C-59BE72263259}.Release|x86.ActiveCfg = Release|Win32
 		{FF9E2D55-245C-4AAD-9A2C-59BE72263259}.Release|x86.Build.0 = Release|Win32
+		{C1788911-74E0-4462-8B62-FC362FF57384}.Debug|x64.ActiveCfg = Debug|x64
+		{C1788911-74E0-4462-8B62-FC362FF57384}.Debug|x64.Build.0 = Debug|x64
+		{C1788911-74E0-4462-8B62-FC362FF57384}.Debug|x86.ActiveCfg = Debug|Win32
+		{C1788911-74E0-4462-8B62-FC362FF57384}.Debug|x86.Build.0 = Debug|Win32
+		{C1788911-74E0-4462-8B62-FC362FF57384}.Release|x64.ActiveCfg = Release|x64
+		{C1788911-74E0-4462-8B62-FC362FF57384}.Release|x64.Build.0 = Release|x64
+		{C1788911-74E0-4462-8B62-FC362FF57384}.Release|x86.ActiveCfg = Release|Win32
+		{C1788911-74E0-4462-8B62-FC362FF57384}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
