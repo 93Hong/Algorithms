@@ -97,6 +97,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2873_RollerCoaster", "2873_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1780_NumberOfPaper", "1780_NumberOfPaper\1780_NumberOfPaper.vcxproj", "{5832A0A1-9D57-48E9-88C7-A5B122EE0D6F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2263_Tree", "2263_Tree\2263_Tree.vcxproj", "{C62CA52D-2441-40F5-A655-D9F2E2B4C49F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -481,6 +483,14 @@ Global
 		{5832A0A1-9D57-48E9-88C7-A5B122EE0D6F}.Release|x64.Build.0 = Release|x64
 		{5832A0A1-9D57-48E9-88C7-A5B122EE0D6F}.Release|x86.ActiveCfg = Release|Win32
 		{5832A0A1-9D57-48E9-88C7-A5B122EE0D6F}.Release|x86.Build.0 = Release|Win32
+		{C62CA52D-2441-40F5-A655-D9F2E2B4C49F}.Debug|x64.ActiveCfg = Debug|x64
+		{C62CA52D-2441-40F5-A655-D9F2E2B4C49F}.Debug|x64.Build.0 = Debug|x64
+		{C62CA52D-2441-40F5-A655-D9F2E2B4C49F}.Debug|x86.ActiveCfg = Debug|Win32
+		{C62CA52D-2441-40F5-A655-D9F2E2B4C49F}.Debug|x86.Build.0 = Debug|Win32
+		{C62CA52D-2441-40F5-A655-D9F2E2B4C49F}.Release|x64.ActiveCfg = Release|x64
+		{C62CA52D-2441-40F5-A655-D9F2E2B4C49F}.Release|x64.Build.0 = Release|x64
+		{C62CA52D-2441-40F5-A655-D9F2E2B4C49F}.Release|x86.ActiveCfg = Release|Win32
+		{C62CA52D-2441-40F5-A655-D9F2E2B4C49F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
