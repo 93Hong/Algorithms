@@ -107,6 +107,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10816_NumberCard2", "10816_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11728_MergeArray", "11728_MergeArray\11728_MergeArray.vcxproj", "{3247778E-FAF9-49FD-A2E3-2DDDAFDCDA9F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14467_WhyCowCrossRoad", "14467_WhyCowCrossRoad\14467_WhyCowCrossRoad.vcxproj", "{52279C6E-F367-4D7F-AFDA-F4B124FB053A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -531,6 +533,14 @@ Global
 		{3247778E-FAF9-49FD-A2E3-2DDDAFDCDA9F}.Release|x64.Build.0 = Release|x64
 		{3247778E-FAF9-49FD-A2E3-2DDDAFDCDA9F}.Release|x86.ActiveCfg = Release|Win32
 		{3247778E-FAF9-49FD-A2E3-2DDDAFDCDA9F}.Release|x86.Build.0 = Release|Win32
+		{52279C6E-F367-4D7F-AFDA-F4B124FB053A}.Debug|x64.ActiveCfg = Debug|x64
+		{52279C6E-F367-4D7F-AFDA-F4B124FB053A}.Debug|x64.Build.0 = Debug|x64
+		{52279C6E-F367-4D7F-AFDA-F4B124FB053A}.Debug|x86.ActiveCfg = Debug|Win32
+		{52279C6E-F367-4D7F-AFDA-F4B124FB053A}.Debug|x86.Build.0 = Debug|Win32
+		{52279C6E-F367-4D7F-AFDA-F4B124FB053A}.Release|x64.ActiveCfg = Release|x64
+		{52279C6E-F367-4D7F-AFDA-F4B124FB053A}.Release|x64.Build.0 = Release|x64
+		{52279C6E-F367-4D7F-AFDA-F4B124FB053A}.Release|x86.ActiveCfg = Release|Win32
+		{52279C6E-F367-4D7F-AFDA-F4B124FB053A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
