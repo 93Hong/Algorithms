@@ -113,6 +113,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2292_BeeHome", "2292_BeeHom
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14503_RobotFrasher", "14503_RobotFrasher\14503_RobotFrasher.vcxproj", "{DEB25CF2-5F04-4C2C-8AEF-D8084044E5AE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SM_4_1_Area", "SM_4_1_Area\SM_4_1_Area.vcxproj", "{609D0B9F-BB71-4389-B581-80C582D4BDB2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SM_4_2_Prime", "SM_4_2_Prime\SM_4_2_Prime.vcxproj", "{2670CCFB-6C00-475C-B89A-25FC06E9972E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -561,6 +565,22 @@ Global
 		{DEB25CF2-5F04-4C2C-8AEF-D8084044E5AE}.Release|x64.Build.0 = Release|x64
 		{DEB25CF2-5F04-4C2C-8AEF-D8084044E5AE}.Release|x86.ActiveCfg = Release|Win32
 		{DEB25CF2-5F04-4C2C-8AEF-D8084044E5AE}.Release|x86.Build.0 = Release|Win32
+		{609D0B9F-BB71-4389-B581-80C582D4BDB2}.Debug|x64.ActiveCfg = Debug|x64
+		{609D0B9F-BB71-4389-B581-80C582D4BDB2}.Debug|x64.Build.0 = Debug|x64
+		{609D0B9F-BB71-4389-B581-80C582D4BDB2}.Debug|x86.ActiveCfg = Debug|Win32
+		{609D0B9F-BB71-4389-B581-80C582D4BDB2}.Debug|x86.Build.0 = Debug|Win32
+		{609D0B9F-BB71-4389-B581-80C582D4BDB2}.Release|x64.ActiveCfg = Release|x64
+		{609D0B9F-BB71-4389-B581-80C582D4BDB2}.Release|x64.Build.0 = Release|x64
+		{609D0B9F-BB71-4389-B581-80C582D4BDB2}.Release|x86.ActiveCfg = Release|Win32
+		{609D0B9F-BB71-4389-B581-80C582D4BDB2}.Release|x86.Build.0 = Release|Win32
+		{2670CCFB-6C00-475C-B89A-25FC06E9972E}.Debug|x64.ActiveCfg = Debug|x64
+		{2670CCFB-6C00-475C-B89A-25FC06E9972E}.Debug|x64.Build.0 = Debug|x64
+		{2670CCFB-6C00-475C-B89A-25FC06E9972E}.Debug|x86.ActiveCfg = Debug|Win32
+		{2670CCFB-6C00-475C-B89A-25FC06E9972E}.Debug|x86.Build.0 = Debug|Win32
+		{2670CCFB-6C00-475C-B89A-25FC06E9972E}.Release|x64.ActiveCfg = Release|x64
+		{2670CCFB-6C00-475C-B89A-25FC06E9972E}.Release|x64.Build.0 = Release|x64
+		{2670CCFB-6C00-475C-B89A-25FC06E9972E}.Release|x86.ActiveCfg = Release|Win32
+		{2670CCFB-6C00-475C-B89A-25FC06E9972E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
