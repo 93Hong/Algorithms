@@ -1,7 +1,6 @@
 #include <cstdio>
 #include <iostream>
-#include <memory>
-#include <memory.>
+#include <memory.h>
 #pragma warning(disable: 4996)
 
 using namespace std;
