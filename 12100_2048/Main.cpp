@@ -13,14 +13,14 @@ void solve(int cnt, int pre, int ar[21][21]) {
 	if (cnt == 5)
 		return;
 
-	int** ary = new int*[N];
-	for (int i = 0; i < N; ++i)
-		ary[i] = new int[N];
+	int nArr[21][21];
+	for (int i = 0; i<N; i++)
+		memcpy(&ar[i][N], nArr, sizeof(nArr));
+	int k = 0;
+	for (int i = 0; i < N; i++) {
+		if (nArr[i][k + x[pre] * i] ) {
 
-	for (int i = 0; i < 4; i++) {
-		if (pre == i)
-			continue;
-		solve(cnt + 1, i);
+		}
 	}
 }
 

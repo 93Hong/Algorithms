@@ -1,36 +1,45 @@
 #include <iostream>
-#include <memory.h>
-#include <cstdio>
-#include <stdlib.h>
+#include <string>
+#include <vector>
 using namespace std;
 
+vector<string> strs;
+string t, s;
 
-int N;
-int arr[21][21];
+int answer = 0, min = 30000;
 
-void tmp(int (*ar)[21]) {
-	int a[21][21];
-	
-	memcpy(a[0], ar[0], sizeof(int) * 21 * 21);
+void solve(vector<string> strs, string s1, int cnt) {
+	if (s1.length() == 0) {
+		if (min > cnt)
+			min = cnt;
+		return;
+	}
 
-	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < N; j++) {
-			printf("%d ", a[i][j]);
+	for (int i = 0; i < strs.size(); i++) {
+		if (s1.find(strs.at(i)) == 0) {
+			string s2 = s1.substr(strs.at(i).length());
+			solve(strs, s2, cnt + 1);
 		}
-		printf("\n");
 	}
 }
 
 int main() {
-	
-	int N = 10;
-	tmp(arr);
-	printf("1\n");
+	s = "banana";
+	strs.push_back("ba");
+	strs.push_back("an");
 
-	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < N; j++) {
-			printf("%d ", arr[i][j]);
-		}
-		printf("\n");
-	}
+	
+	solve(strs, s, 0);
+	
+	if (min == 30000)
+		answer = -1;
+	else
+		answer = min;
+
+	printf("%d\n", answer);
 }
+/*
+for (int i = 0; i < strs.size(); i++) {
+if (s.find(strs.at(i)) == -1)
+answer = -1;
+}*/
