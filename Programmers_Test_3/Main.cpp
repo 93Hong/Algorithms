@@ -6,6 +6,8 @@ int minn = 30000;
 vector<string> st;
 
 void solve(string s1, int cnt) {
+	if (cnt >= minn)
+		return;
 	if (s1.length() == 0) {
 		if (minn > cnt)
 			minn = cnt;
