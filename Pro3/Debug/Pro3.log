@@ -1,0 +1,8 @@
+﻿  Main.cpp
+c:\users\hong\documents\visual studio 2015\algorithm\pro3\main.cpp(9): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\pro3\main.cpp(21): error C3863: 배열 형식 'int [2]'은(는) 할당할 수 없습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\pro3\main.cpp(22): error C3863: 배열 형식 'int [2]'은(는) 할당할 수 없습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\pro3\main.cpp(23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\pro3\main.cpp(25): error C3863: 배열 형식 'int [2]'은(는) 할당할 수 없습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\pro3\main.cpp(28): error C3863: 배열 형식 'int [2]'은(는) 할당할 수 없습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\pro3\main.cpp(31): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.

@@ -1,0 +1,5 @@
+﻿  Main.cpp
+c:\users\hong\documents\visual studio 2015\algorithm\pro1\main.cpp(19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\pro1\main.cpp(10): warning C4101: 'ps' :참조되지 않은 지역 변수입니다.
+c:\users\hong\documents\visual studio 2015\algorithm\pro1\main.cpp(10): warning C4101: 'pe' :참조되지 않은 지역 변수입니다.
+  Pro1.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\Pro1.exe

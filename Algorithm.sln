@@ -137,6 +137,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Programmers_Test_3", "Progr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Programmers_MakeBanana", "Programmers_MakeBanana\Programmers_MakeBanana.vcxproj", "{A042A113-6BDB-4381-8C91-E62FC8C0C39D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pro1", "Pro1\Pro1.vcxproj", "{5E5CB9BB-2AA2-4673-BAC7-9EF2B96D93B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pro3", "Pro3\Pro3.vcxproj", "{ADD9C000-6C51-4707-9526-96F817835D82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -681,6 +685,22 @@ Global
 		{A042A113-6BDB-4381-8C91-E62FC8C0C39D}.Release|x64.Build.0 = Release|x64
 		{A042A113-6BDB-4381-8C91-E62FC8C0C39D}.Release|x86.ActiveCfg = Release|Win32
 		{A042A113-6BDB-4381-8C91-E62FC8C0C39D}.Release|x86.Build.0 = Release|Win32
+		{5E5CB9BB-2AA2-4673-BAC7-9EF2B96D93B2}.Debug|x64.ActiveCfg = Debug|x64
+		{5E5CB9BB-2AA2-4673-BAC7-9EF2B96D93B2}.Debug|x64.Build.0 = Debug|x64
+		{5E5CB9BB-2AA2-4673-BAC7-9EF2B96D93B2}.Debug|x86.ActiveCfg = Debug|Win32
+		{5E5CB9BB-2AA2-4673-BAC7-9EF2B96D93B2}.Debug|x86.Build.0 = Debug|Win32
+		{5E5CB9BB-2AA2-4673-BAC7-9EF2B96D93B2}.Release|x64.ActiveCfg = Release|x64
+		{5E5CB9BB-2AA2-4673-BAC7-9EF2B96D93B2}.Release|x64.Build.0 = Release|x64
+		{5E5CB9BB-2AA2-4673-BAC7-9EF2B96D93B2}.Release|x86.ActiveCfg = Release|Win32
+		{5E5CB9BB-2AA2-4673-BAC7-9EF2B96D93B2}.Release|x86.Build.0 = Release|Win32
+		{ADD9C000-6C51-4707-9526-96F817835D82}.Debug|x64.ActiveCfg = Debug|x64
+		{ADD9C000-6C51-4707-9526-96F817835D82}.Debug|x64.Build.0 = Debug|x64
+		{ADD9C000-6C51-4707-9526-96F817835D82}.Debug|x86.ActiveCfg = Debug|Win32
+		{ADD9C000-6C51-4707-9526-96F817835D82}.Debug|x86.Build.0 = Debug|Win32
+		{ADD9C000-6C51-4707-9526-96F817835D82}.Release|x64.ActiveCfg = Release|x64
+		{ADD9C000-6C51-4707-9526-96F817835D82}.Release|x64.Build.0 = Release|x64
+		{ADD9C000-6C51-4707-9526-96F817835D82}.Release|x86.ActiveCfg = Release|Win32
+		{ADD9C000-6C51-4707-9526-96F817835D82}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
