@@ -1,0 +1,4 @@
+﻿  Main.cpp
+c:\users\hong\documents\visual studio 2015\algorithm\kakao_2\main.cpp(23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\kakao_2\main.cpp(37): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Kakao_2.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\Kakao_2.exe
