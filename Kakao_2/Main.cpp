@@ -34,9 +34,8 @@ int main() {
 	
 	sort(re, re+nums.size(), comp);
 
-	for (int i = 0; i < nums.size(); i++) {
+	for (int i = 0; i < nums.size(); i++)
 		printf("%d ", re[i].first);
-	}
 
 	return 0;
 }

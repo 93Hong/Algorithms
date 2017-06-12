@@ -35,9 +35,8 @@ int main() {
 				st.push(tmp);
 			i++;
 		}
-		else {
+		else
 			st.push(s[i] - '0');
-		}
 	}
 	
 
@@ -45,6 +44,7 @@ int main() {
 		output[st.top() - 1]++;
 		st.pop();
 	}
+
 	for (int i = 0; i < 26; i++)
 		printf("%d ", output[i]);
 }
