@@ -1,0 +1,5 @@
+﻿  Main.cpp
+c:\users\hong\documents\visual studio 2015\algorithm\nexongt_1\main.cpp(22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\nexongt_1\main.cpp(12): warning C4101: 'c' :참조되지 않은 지역 변수입니다.
+c:\users\hong\documents\visual studio 2015\algorithm\nexongt_1\main.cpp(12): warning C4101: 'r' :참조되지 않은 지역 변수입니다.
+  NexonGT_1.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\NexonGT_1.exe
