@@ -1,29 +1,28 @@
-/*
-* Complete the function below.
-*/
-int consecutive(long num) {
+#include <cstdio>
+#include <algorithm>
+#pragma warning(disable:4996)
 
-	long  s = 1, t = 1, cur = 1;
-	int result = 0;
-	int tmp = num / 2 + 1;
+using namespace std;
 
-	while (s <= t && t <= num) {
-		if (s >= tmp)
+
+bool isInteger(float k) {
+	return floor(k) == k;
+}
+
+int main() {
+	long N;
+	scanf("%ld", &N);
+
+	int ans = 0;
+	iswdigit(3);
+	for (int i = 2; i < 1000001; i++) {
+		int a = (i*i - i) / 2;
+		double tmp = (N - a) / 2;
+		if (isInteger(tmp))
+			ans++;
+		if (a > N)
 			break;
-		if (cur < num) {
-			t++;
-			cur += t;
-		}
-		else if (cur == num) {
-			result++;
-			t++;
-			cur += t;
-		}
-		else {
-			cur -= s;
-			s++;
-		}
 	}
 
-	return result;
+	printf("%d\n", ans);
 }

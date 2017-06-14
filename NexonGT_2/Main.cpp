@@ -1,3 +1,10 @@
+#include <cstdio>
+#include <vector>
+#pragma warning(disable :  4996)
+
+using namespace std;
+
+
 int up_dp[500][500];
 int down_dp[500][500];
 int n, m;
@@ -9,11 +16,11 @@ int up_go(vector<vector <int>> v, int row, int col) {
 
 	int ans = -1;
 	if (col - 1 >= 0) {
-		if (ans < up_go(row - 1, col - 1))ans = up_go(row - 1, col - 1);
+		if (ans < up_go(v, row - 1, col - 1))ans = up_go(v, row - 1, col - 1);
 	}
-	if (ans < up_go(row - 1, col))ans = up_go(row - 1, col);
+	if (ans < up_go(v, row - 1, col))ans = up_go(v, row - 1, col);
 	if (col + 1 < m) {
-		if (ans < up_go(row - 1, col + 1))ans = up_go(row - 1, col + 1);
+		if (ans < up_go(v, row - 1, col + 1))ans = up_go(v, row - 1, col + 1);
 	}
 
 	return up_dp[row][col] = ans + v[row][col];
@@ -26,11 +33,11 @@ int down_go(vector<vector <int>> v, int row, int col) {
 
 	int ans = -1;
 	if (col - 1 >= 0) {
-		if (ans < down_go(row + 1, col - 1))ans = down_go(row + 1, col - 1);
+		if (ans < down_go(v, row + 1, col - 1))ans = down_go(v, row + 1, col - 1);
 	}
-	if (ans < down_go(row + 1, col))ans = down_go(row + 1, col);
+	if (ans < down_go(v, row + 1, col))ans = down_go(v, row + 1, col);
 	if (col + 1 < m) {
-		if (ans < down_go(row + 1, col + 1))ans = down_go(row + 1, col + 1);
+		if (ans < down_go(v, row + 1, col + 1))ans = down_go(v, row + 1, col + 1);
 	}
 
 	return down_dp[row][col] = ans + v[row][col];
