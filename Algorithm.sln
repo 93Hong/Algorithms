@@ -173,6 +173,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NexonGT_2", "NexonGT_2\Nexo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NexonGT_3", "NexonGT_3\NexonGT_3.vcxproj", "{0FCEE7C1-F394-4CFE-AE43-F129E720B1BD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exercise", "Exercise\Exercise.vcxproj", "{EC7C2961-EC8E-4235-8F52-37B2FD4D4E90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -861,6 +863,14 @@ Global
 		{0FCEE7C1-F394-4CFE-AE43-F129E720B1BD}.Release|x64.Build.0 = Release|x64
 		{0FCEE7C1-F394-4CFE-AE43-F129E720B1BD}.Release|x86.ActiveCfg = Release|Win32
 		{0FCEE7C1-F394-4CFE-AE43-F129E720B1BD}.Release|x86.Build.0 = Release|Win32
+		{EC7C2961-EC8E-4235-8F52-37B2FD4D4E90}.Debug|x64.ActiveCfg = Debug|x64
+		{EC7C2961-EC8E-4235-8F52-37B2FD4D4E90}.Debug|x64.Build.0 = Debug|x64
+		{EC7C2961-EC8E-4235-8F52-37B2FD4D4E90}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC7C2961-EC8E-4235-8F52-37B2FD4D4E90}.Debug|x86.Build.0 = Debug|Win32
+		{EC7C2961-EC8E-4235-8F52-37B2FD4D4E90}.Release|x64.ActiveCfg = Release|x64
+		{EC7C2961-EC8E-4235-8F52-37B2FD4D4E90}.Release|x64.Build.0 = Release|x64
+		{EC7C2961-EC8E-4235-8F52-37B2FD4D4E90}.Release|x86.ActiveCfg = Release|Win32
+		{EC7C2961-EC8E-4235-8F52-37B2FD4D4E90}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
