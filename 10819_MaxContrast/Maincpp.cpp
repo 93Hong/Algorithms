@@ -32,6 +32,7 @@ int main() {
 	do {
 		maxContrast();
 	} while (next_permutation(v.begin(), v.end()));
+	
 
 	printf("%d\n", result);
 	return 0;

@@ -32,7 +32,7 @@ int main() {
 		re[i].second = cnt;
 	}
 	
-	sort(re, re+nums.size(), comp);
+	sort(re, re + nums.size(), comp);
 
 	for (int i = 0; i < nums.size(); i++)
 		printf("%d ", re[i].first);
