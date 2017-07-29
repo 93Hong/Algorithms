@@ -183,7 +183,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nexon_new_1", "Nexon_new_1\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2805_CutTree", "2805_CutTree\2805_CutTree.vcxproj", "{C9E7DE9E-910A-4804-9E00-C7E78E05B833}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringMethod", "StringMethod\StringMethod.vcxproj", "{786F77E5-6EC2-4293-AFDE-8B328CC0B953}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStructureAlgorithm", "StringMethod\StringMethod.vcxproj", "{786F77E5-6EC2-4293-AFDE-8B328CC0B953}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14659_Hierachy", "14659_Hierachy\14659_Hierachy.vcxproj", "{8A112BD7-23EC-4516-A1A9-A670F0DE0834}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -921,6 +923,14 @@ Global
 		{786F77E5-6EC2-4293-AFDE-8B328CC0B953}.Release|x64.Build.0 = Release|x64
 		{786F77E5-6EC2-4293-AFDE-8B328CC0B953}.Release|x86.ActiveCfg = Release|Win32
 		{786F77E5-6EC2-4293-AFDE-8B328CC0B953}.Release|x86.Build.0 = Release|Win32
+		{8A112BD7-23EC-4516-A1A9-A670F0DE0834}.Debug|x64.ActiveCfg = Debug|x64
+		{8A112BD7-23EC-4516-A1A9-A670F0DE0834}.Debug|x64.Build.0 = Debug|x64
+		{8A112BD7-23EC-4516-A1A9-A670F0DE0834}.Debug|x86.ActiveCfg = Debug|Win32
+		{8A112BD7-23EC-4516-A1A9-A670F0DE0834}.Debug|x86.Build.0 = Debug|Win32
+		{8A112BD7-23EC-4516-A1A9-A670F0DE0834}.Release|x64.ActiveCfg = Release|x64
+		{8A112BD7-23EC-4516-A1A9-A670F0DE0834}.Release|x64.Build.0 = Release|x64
+		{8A112BD7-23EC-4516-A1A9-A670F0DE0834}.Release|x86.ActiveCfg = Release|Win32
+		{8A112BD7-23EC-4516-A1A9-A670F0DE0834}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
