@@ -187,6 +187,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStructureAlgorithm", "S
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14659_Hierachy", "14659_Hierachy\14659_Hierachy.vcxproj", "{8A112BD7-23EC-4516-A1A9-A670F0DE0834}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14653_WhatIsYourName", "14653_WhatIsYourName\14653_WhatIsYourName.vcxproj", "{F0030BE6-BB7B-485D-AFF6-705A81383FFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -931,6 +933,14 @@ Global
 		{8A112BD7-23EC-4516-A1A9-A670F0DE0834}.Release|x64.Build.0 = Release|x64
 		{8A112BD7-23EC-4516-A1A9-A670F0DE0834}.Release|x86.ActiveCfg = Release|Win32
 		{8A112BD7-23EC-4516-A1A9-A670F0DE0834}.Release|x86.Build.0 = Release|Win32
+		{F0030BE6-BB7B-485D-AFF6-705A81383FFA}.Debug|x64.ActiveCfg = Debug|x64
+		{F0030BE6-BB7B-485D-AFF6-705A81383FFA}.Debug|x64.Build.0 = Debug|x64
+		{F0030BE6-BB7B-485D-AFF6-705A81383FFA}.Debug|x86.ActiveCfg = Debug|Win32
+		{F0030BE6-BB7B-485D-AFF6-705A81383FFA}.Debug|x86.Build.0 = Debug|Win32
+		{F0030BE6-BB7B-485D-AFF6-705A81383FFA}.Release|x64.ActiveCfg = Release|x64
+		{F0030BE6-BB7B-485D-AFF6-705A81383FFA}.Release|x64.Build.0 = Release|x64
+		{F0030BE6-BB7B-485D-AFF6-705A81383FFA}.Release|x86.ActiveCfg = Release|Win32
+		{F0030BE6-BB7B-485D-AFF6-705A81383FFA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
