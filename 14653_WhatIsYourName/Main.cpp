@@ -22,8 +22,13 @@ int main() {
 	}
 	index = data[Q-1].first;
 
+	bool flag = false;
+
 	for (int i = 0; i < K; i++) {
 		if (data[i].first == index) {
+			flag = true;
+		}
+		if (flag) {
 			ans[data[i].second - 65] = true;
 		}
 	}
