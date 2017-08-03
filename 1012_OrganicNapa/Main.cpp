@@ -5,7 +5,6 @@
 using namespace std;
 
 int arr[51][51];
-
 int dir[4][2] = { {0, 1}, {0, -1}, {1, 0}, {-1, 0} };
 
 int main() {
@@ -18,9 +17,8 @@ int main() {
 		scanf("%d", &M); scanf("%d", &N); scanf("%d", &K);
 
 		for (int i = 0; i < N; i++)
-			for (int j = 0; j < M; j++) {
+			for (int j = 0; j < M; j++)
 				arr[i][j] = 0;
-			}
 
 		while (K--) {
 			scanf("%d", &x); scanf("%d", &y);
@@ -37,6 +35,7 @@ int main() {
 						x = q.front().first;
 						y = q.front().second;
 						q.pop();
+						arr[x][y] = 0;
 
 						for (int k = 0; k < 4; k++) {
 							int dx = x + dir[k][0];
@@ -46,7 +45,6 @@ int main() {
 								continue;
 							if (arr[dx][dy] == 1) {
 								q.push({ dx, dy });
-								arr[dx][dy] = 0;
 							}
 						}
 					}

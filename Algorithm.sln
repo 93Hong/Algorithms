@@ -195,6 +195,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1697_HideAndSeek", "1697_Hi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1012_OrganicNapa", "1012_OrganicNapa\1012_OrganicNapa.vcxproj", "{BF10E73A-DDD4-492A-8DB3-E9953AB4C2C0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2455_IntelligenceTrain", "2455_IntelligenceTrain\2455_IntelligenceTrain.vcxproj", "{9B3AF120-E29D-4819-B8EA-4A7CB30F8F12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -971,6 +973,14 @@ Global
 		{BF10E73A-DDD4-492A-8DB3-E9953AB4C2C0}.Release|x64.Build.0 = Release|x64
 		{BF10E73A-DDD4-492A-8DB3-E9953AB4C2C0}.Release|x86.ActiveCfg = Release|Win32
 		{BF10E73A-DDD4-492A-8DB3-E9953AB4C2C0}.Release|x86.Build.0 = Release|Win32
+		{9B3AF120-E29D-4819-B8EA-4A7CB30F8F12}.Debug|x64.ActiveCfg = Debug|x64
+		{9B3AF120-E29D-4819-B8EA-4A7CB30F8F12}.Debug|x64.Build.0 = Debug|x64
+		{9B3AF120-E29D-4819-B8EA-4A7CB30F8F12}.Debug|x86.ActiveCfg = Debug|Win32
+		{9B3AF120-E29D-4819-B8EA-4A7CB30F8F12}.Debug|x86.Build.0 = Debug|Win32
+		{9B3AF120-E29D-4819-B8EA-4A7CB30F8F12}.Release|x64.ActiveCfg = Release|x64
+		{9B3AF120-E29D-4819-B8EA-4A7CB30F8F12}.Release|x64.Build.0 = Release|x64
+		{9B3AF120-E29D-4819-B8EA-4A7CB30F8F12}.Release|x86.ActiveCfg = Release|Win32
+		{9B3AF120-E29D-4819-B8EA-4A7CB30F8F12}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
