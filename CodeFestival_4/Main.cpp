@@ -3,24 +3,29 @@
 
 using namespace std;
 int answer = 0;
+int N;
 
-int go(int n, int cnt,  int plus) {
-	plus += 2;
+void go(int n, int cnt,  int plus) {
 
-	if (n == 1)
+	if (n == N && plus == 0)
 		answer++;
+	if (cnt > 20)
+		return;
+
+	plus += 2;
 
 	
 	for (int i = 0; i <= plus; i++) {
-		if (n/3 - i > 1)
-			go(n / 3 - i, cnt + 1, plus - i);
+		if (n * 3 + i <= N) {
+			go(n * 3 + i, cnt + 1, plus - i);
+		}
 	}
 }
 
 int main() {
-	int n = 15;
+	N = 48;
 
-	 go(n, 0, 0);
+	go(1, 0, 0);
 
-	 printf("%d\n", answer);
+	printf("%d\n", answer);
 }
