@@ -211,6 +211,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodeFestival_4", "CodeFesti
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11048_Move", "11048_Move\11048_Move.vcxproj", "{862B0D2B-B66A-4D3D-AD98-20FE8B4868EB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1149_RGB", "1149_RGB\1149_RGB.vcxproj", "{6F904C99-E03B-45DE-9246-A5D1B765B97F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1051,6 +1053,14 @@ Global
 		{862B0D2B-B66A-4D3D-AD98-20FE8B4868EB}.Release|x64.Build.0 = Release|x64
 		{862B0D2B-B66A-4D3D-AD98-20FE8B4868EB}.Release|x86.ActiveCfg = Release|Win32
 		{862B0D2B-B66A-4D3D-AD98-20FE8B4868EB}.Release|x86.Build.0 = Release|Win32
+		{6F904C99-E03B-45DE-9246-A5D1B765B97F}.Debug|x64.ActiveCfg = Debug|x64
+		{6F904C99-E03B-45DE-9246-A5D1B765B97F}.Debug|x64.Build.0 = Debug|x64
+		{6F904C99-E03B-45DE-9246-A5D1B765B97F}.Debug|x86.ActiveCfg = Debug|Win32
+		{6F904C99-E03B-45DE-9246-A5D1B765B97F}.Debug|x86.Build.0 = Debug|Win32
+		{6F904C99-E03B-45DE-9246-A5D1B765B97F}.Release|x64.ActiveCfg = Release|x64
+		{6F904C99-E03B-45DE-9246-A5D1B765B97F}.Release|x64.Build.0 = Release|x64
+		{6F904C99-E03B-45DE-9246-A5D1B765B97F}.Release|x86.ActiveCfg = Release|Win32
+		{6F904C99-E03B-45DE-9246-A5D1B765B97F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
