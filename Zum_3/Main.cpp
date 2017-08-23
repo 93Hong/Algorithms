@@ -15,16 +15,17 @@ int solution(vector<int> &A) {
 				break;
 			}
 			if (A[i] > A[i - 2]) {
-				if (checked) {
+				if (checked) { //이미 안쪽으로 들어온 후
 					ans = i;
 					break;
 				}
 			}
-			else {
+			else { //A[i] <= A[i - 2]
 				if (checked2) continue;
-				if (checked) {
+				if (checked) { //이미 안쪽으로 들어온 경우
+							   //일단 로직짜보고 i 음수범위 체크 해주기 
 					if (i - 5 < 0 || A[i - 1] < A[i - 3] - A[i - 5]) {
-						checked2 = true;
+						checked2 = true; //완전히 안쪽으로 들어옴   
 					}
 					else {
 						if (A[i] >= A[i - 2] - A[i - 4]) {
@@ -33,7 +34,7 @@ int solution(vector<int> &A) {
 						}
 					}
 				}
-				else {
+				else { //처음 안쪽으로 들어온 경우
 					checked = true;
 				}
 			}

@@ -2,7 +2,9 @@
 #include<algorithm>
 #include<string>
 #include<iostream>
+
 using namespace std;
+
 string solution(int A, int B, int C, int D, int E, int F) {
 	vector<int> ve1, ve2;
 	string answer = "";
