@@ -1,0 +1,5 @@
+﻿  Main.cpp
+c:\users\hong\documents\visual studio 2015\algorithm\1309_zoo\main.cpp(18): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 '__int64'입니다.
+  c:\users\hong\documents\visual studio 2015\algorithm\1309_zoo\main.cpp(18): note: 서식 문자열에서 '%lld'을(를) 사용하는 것이 좋습니다.
+  c:\users\hong\documents\visual studio 2015\algorithm\1309_zoo\main.cpp(18): note: 서식 문자열에서 '%I64d'을(를) 사용하는 것이 좋습니다.
+  1309_Zoo.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\1309_Zoo.exe
