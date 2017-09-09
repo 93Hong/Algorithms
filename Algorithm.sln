@@ -267,6 +267,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1495_Guitarist", "1495_Guit
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KakaoBoost_3", "KakaoBoost_3\KakaoBoost_3.vcxproj", "{8B16D4CF-B39B-43F0-BC4D-52536F3F20FF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KakaoBoost_4", "KakaoBoost_4\KakaoBoost_4.vcxproj", "{5FC4C529-A0CE-4312-AE0A-38B58183A733}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1331,6 +1333,14 @@ Global
 		{8B16D4CF-B39B-43F0-BC4D-52536F3F20FF}.Release|x64.Build.0 = Release|x64
 		{8B16D4CF-B39B-43F0-BC4D-52536F3F20FF}.Release|x86.ActiveCfg = Release|Win32
 		{8B16D4CF-B39B-43F0-BC4D-52536F3F20FF}.Release|x86.Build.0 = Release|Win32
+		{5FC4C529-A0CE-4312-AE0A-38B58183A733}.Debug|x64.ActiveCfg = Debug|x64
+		{5FC4C529-A0CE-4312-AE0A-38B58183A733}.Debug|x64.Build.0 = Debug|x64
+		{5FC4C529-A0CE-4312-AE0A-38B58183A733}.Debug|x86.ActiveCfg = Debug|Win32
+		{5FC4C529-A0CE-4312-AE0A-38B58183A733}.Debug|x86.Build.0 = Debug|Win32
+		{5FC4C529-A0CE-4312-AE0A-38B58183A733}.Release|x64.ActiveCfg = Release|x64
+		{5FC4C529-A0CE-4312-AE0A-38B58183A733}.Release|x64.Build.0 = Release|x64
+		{5FC4C529-A0CE-4312-AE0A-38B58183A733}.Release|x86.ActiveCfg = Release|Win32
+		{5FC4C529-A0CE-4312-AE0A-38B58183A733}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
