@@ -1,0 +1,5 @@
+﻿  Main.cpp
+c:\users\hong\documents\visual studio 2015\algorithm\kakaoblindfirst_1\main.cpp(4): warning C4081: 'newline'이(가) 있어야 하는데 ';'이(가) 있습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\kakaoblindfirst_1\main.cpp(15): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\kakaoblindfirst_1\main.cpp(28): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  KakaoBlindFirst_1.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\KakaoBlindFirst_1.exe

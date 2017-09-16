@@ -1,0 +1,8 @@
+﻿  Main.cpp
+c:\users\hong\documents\visual studio 2015\algorithm\kakaoblindfirst_5\main.cpp(19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\kakaoblindfirst_5\main.cpp(24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\kakaoblindfirst_5\main.cpp(34): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\kakaoblindfirst_5\main.cpp(39): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\kakaoblindfirst_5\main.cpp(48): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\kakaoblindfirst_5\main.cpp(67): warning C4244: 'return': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  KakaoBlindFirst_5.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\KakaoBlindFirst_5.exe
