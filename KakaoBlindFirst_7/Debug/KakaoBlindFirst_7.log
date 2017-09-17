@@ -1,0 +1,3 @@
+﻿  Main.cpp
+c:\users\hong\documents\visual studio 2015\algorithm\kakaoblindfirst_7\main.cpp(22): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::pair<int,int>'입니다.
+  KakaoBlindFirst_7.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\KakaoBlindFirst_7.exe
