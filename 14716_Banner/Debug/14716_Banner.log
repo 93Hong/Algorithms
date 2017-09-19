@@ -1,2 +1,3 @@
 ﻿  Main.cpp
+c:\users\hong\documents\visual studio 2015\algorithm\14716_banner\main.cpp(37): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'bool *'입니다.
   14716_Banner.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\14716_Banner.exe

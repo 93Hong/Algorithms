@@ -6,23 +6,22 @@ using namespace std;
 
 int dirX[8] = {-1, 0, 1, 1, 1, 0, -1, -1};
 int dirY[8] = {-1, -1, -1, 0, 1, 1, 1, 0};
-int map[251][251], check[251][251];
+bool map[251][251];
 queue<pair<int, int>> q;
 int n, m, ans = 0;
 
 void solve() {
 	while (!q.empty()) {
 		int x = q.front().first, y = q.front().second;
-		map[x][y] = 0;
-		check[x][y] = 1;
 		q.pop();
 
 		for (int i = 0; i < 8; i++) {
 			int dx = x + dirX[i], dy = y + dirY[i];
 			if (dx < 0 || dx >= n || dy < 0 || dy >= m)
 				continue;
-			if (map[dx][dy] && !check[dx][dy]) {
+			if (map[dx][dy]) {
 				q.push({ dx, dy });
+				map[dx][dy] = 0;
 			}
 		}
 	}
@@ -43,6 +42,7 @@ int main() {
 		for (int j = 0; j < m; j++) {
 			if (map[i][j]) {
 				q.push({i, j});
+				map[i][j] = 0;
 				solve();
 				ans++;
 			}
