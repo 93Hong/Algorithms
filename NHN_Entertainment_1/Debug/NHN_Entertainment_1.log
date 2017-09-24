@@ -1,0 +1,4 @@
+﻿  Main.cpp
+c:\users\hong\documents\visual studio 2015\algorithm\nhn_entertainment_1\main.cpp(45): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\nhn_entertainment_1\main.cpp(53): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  NHN_Entertainment_1.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\NHN_Entertainment_1.exe
