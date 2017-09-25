@@ -317,6 +317,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NHN_Entertainment_5", "NHN_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10866_Deque", "10866_Deque\10866_Deque.vcxproj", "{A40ABFFE-A950-4C5C-8D6F-648EDD0C975B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1963_PathOfPrimeNumber", "1963_PathOfPrimeNumber\1963_PathOfPrimeNumber.vcxproj", "{157A5558-71E6-4603-963E-2D9F4A924C58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1581,6 +1583,14 @@ Global
 		{A40ABFFE-A950-4C5C-8D6F-648EDD0C975B}.Release|x64.Build.0 = Release|x64
 		{A40ABFFE-A950-4C5C-8D6F-648EDD0C975B}.Release|x86.ActiveCfg = Release|Win32
 		{A40ABFFE-A950-4C5C-8D6F-648EDD0C975B}.Release|x86.Build.0 = Release|Win32
+		{157A5558-71E6-4603-963E-2D9F4A924C58}.Debug|x64.ActiveCfg = Debug|x64
+		{157A5558-71E6-4603-963E-2D9F4A924C58}.Debug|x64.Build.0 = Debug|x64
+		{157A5558-71E6-4603-963E-2D9F4A924C58}.Debug|x86.ActiveCfg = Debug|Win32
+		{157A5558-71E6-4603-963E-2D9F4A924C58}.Debug|x86.Build.0 = Debug|Win32
+		{157A5558-71E6-4603-963E-2D9F4A924C58}.Release|x64.ActiveCfg = Release|x64
+		{157A5558-71E6-4603-963E-2D9F4A924C58}.Release|x64.Build.0 = Release|x64
+		{157A5558-71E6-4603-963E-2D9F4A924C58}.Release|x86.ActiveCfg = Release|Win32
+		{157A5558-71E6-4603-963E-2D9F4A924C58}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
