@@ -1,0 +1,3 @@
+﻿  Main.cpp
+c:\users\hong\documents\visual studio 2015\algorithm\10866_deque\main.cpp(56): warning C4477: 'scanf' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'std::string'입니다.
+  10866_Deque.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\10866_Deque.exe
