@@ -321,6 +321,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1963_PathOfPrimeNumber", "1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9019_DSLR", "9019_DSLR\9019_DSLR.vcxproj", "{073A5E40-88AA-462A-A9BD-4999F859FE41}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1021_TurningQueue", "1021_TurningQueue\1021_TurningQueue.vcxproj", "{A89C40CF-3BA8-4293-AE0A-B4424F284B59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1601,6 +1603,14 @@ Global
 		{073A5E40-88AA-462A-A9BD-4999F859FE41}.Release|x64.Build.0 = Release|x64
 		{073A5E40-88AA-462A-A9BD-4999F859FE41}.Release|x86.ActiveCfg = Release|Win32
 		{073A5E40-88AA-462A-A9BD-4999F859FE41}.Release|x86.Build.0 = Release|Win32
+		{A89C40CF-3BA8-4293-AE0A-B4424F284B59}.Debug|x64.ActiveCfg = Debug|x64
+		{A89C40CF-3BA8-4293-AE0A-B4424F284B59}.Debug|x64.Build.0 = Debug|x64
+		{A89C40CF-3BA8-4293-AE0A-B4424F284B59}.Debug|x86.ActiveCfg = Debug|Win32
+		{A89C40CF-3BA8-4293-AE0A-B4424F284B59}.Debug|x86.Build.0 = Debug|Win32
+		{A89C40CF-3BA8-4293-AE0A-B4424F284B59}.Release|x64.ActiveCfg = Release|x64
+		{A89C40CF-3BA8-4293-AE0A-B4424F284B59}.Release|x64.Build.0 = Release|x64
+		{A89C40CF-3BA8-4293-AE0A-B4424F284B59}.Release|x86.ActiveCfg = Release|Win32
+		{A89C40CF-3BA8-4293-AE0A-B4424F284B59}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
