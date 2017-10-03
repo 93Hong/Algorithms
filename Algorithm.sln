@@ -335,6 +335,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CiserPassword", "CiserPassw
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NationOf124", "NationOf124\NationOf124.vcxproj", "{C1A919D3-1F40-4B77-9A3A-5DDD4AE09CE2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6549_BigSquare", "6549_BigSquare\6549_BigSquare.vcxproj", "{FE89D8C3-7A83-4E97-88CE-A698005F8275}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1671,6 +1673,14 @@ Global
 		{C1A919D3-1F40-4B77-9A3A-5DDD4AE09CE2}.Release|x64.Build.0 = Release|x64
 		{C1A919D3-1F40-4B77-9A3A-5DDD4AE09CE2}.Release|x86.ActiveCfg = Release|Win32
 		{C1A919D3-1F40-4B77-9A3A-5DDD4AE09CE2}.Release|x86.Build.0 = Release|Win32
+		{FE89D8C3-7A83-4E97-88CE-A698005F8275}.Debug|x64.ActiveCfg = Debug|x64
+		{FE89D8C3-7A83-4E97-88CE-A698005F8275}.Debug|x64.Build.0 = Debug|x64
+		{FE89D8C3-7A83-4E97-88CE-A698005F8275}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE89D8C3-7A83-4E97-88CE-A698005F8275}.Debug|x86.Build.0 = Debug|Win32
+		{FE89D8C3-7A83-4E97-88CE-A698005F8275}.Release|x64.ActiveCfg = Release|x64
+		{FE89D8C3-7A83-4E97-88CE-A698005F8275}.Release|x64.Build.0 = Release|x64
+		{FE89D8C3-7A83-4E97-88CE-A698005F8275}.Release|x86.ActiveCfg = Release|Win32
+		{FE89D8C3-7A83-4E97-88CE-A698005F8275}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
