@@ -1,44 +1,47 @@
 #include <cstdio>
 #include <stack>
+#include <algorithm>
 #pragma warning(disable:4996)
+
 using namespace std;
-long long a[100000];
+
+long long h[100001];
+
 int main() {
-		int n;
+	int n;
+
+	while (1) {
 		scanf("%d", &n);
-		for (int i = 0; i<n; i++) {
-			scanf("%lld", &a[i]);
-		}
-		stack<long long> s;
+		if (n == 0)
+			break;
+		stack<long long> st;
+		for (int i = 0; i < n; i++)
+			scanf("%lld", &h[i]);
 		long long ans = 0;
-		for (int i = 0; i<n; i++) {
-			int left = i;
-			while (!s.empty() && a[s.top()] > a[i]) {
-				long long height = a[s.top()];
-				s.pop();
+
+		for (int i = 0; i < n; i++) {
+			while (!st.empty() && h[st.top()] > h[i]) {
+				long long height = h[st.top()];
+				st.pop();
 				long long width = i;
-				if (!s.empty()) {
-					width = (i - s.top() - 1);
-				}
-				if (ans < width*height) {
-					ans = width*height;
-				}
+				if (!st.empty())
+					width = i - st.top() - 1;
+				long long v = height * width;
+				ans = max(ans, v);
 			}
-			s.push(i);
+			st.push(i);
 		}
-		while (!s.empty()) {
-			long long height = a[s.top()];
-			s.pop();
+
+		while (!st.empty()) {
+			long long height = h[st.top()];
+			st.pop();
 			long long width = n;
-			if (!s.empty()) {
-				width = n - s.top() - 1;
-			}
-			if (ans < width*height) {
-				ans = width*height;
-			}
+			if (!st.empty())
+				width = n - st.top() - 1;
+			long long v = height * width;
+			ans = max(ans, v);
 		}
 
 		printf("%lld\n", ans);
-	
-	return 0;
+	}
 }
