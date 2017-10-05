@@ -1,0 +1,4 @@
+﻿  Main.cpp
+c:\users\hong\documents\visual studio 2015\algorithm\9935_stringexplosion\main.cpp(25): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\9935_stringexplosion\main.cpp(18): warning C4101: 'st_size' :참조되지 않은 지역 변수입니다.
+  9935_StringExplosion.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\9935_StringExplosion.exe
