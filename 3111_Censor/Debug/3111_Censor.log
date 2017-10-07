@@ -1,6 +1,6 @@
 ﻿  Main.cpp
-c:\users\hong\documents\visual studio 2015\algorithm\3111_censor\main.cpp(25): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\hong\documents\visual studio 2015\algorithm\3111_censor\main.cpp(43): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\hong\documents\visual studio 2015\algorithm\3111_censor\main.cpp(66): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\hong\documents\visual studio 2015\algorithm\3111_censor\main.cpp(90): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\3111_censor\main.cpp(26): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\3111_censor\main.cpp(44): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\3111_censor\main.cpp(67): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\3111_censor\main.cpp(94): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
   3111_Censor.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\3111_Censor.exe

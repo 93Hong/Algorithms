@@ -3,6 +3,7 @@
 #include <string>
 #include <iostream>
 #include <queue>
+#include <algorithm>
 #pragma warning(disable:4996)
 
 using namespace std;
@@ -77,10 +78,13 @@ int main() {
 					}
 			}
 		}
+		string str;
 		while (!s.empty()) {
-			printf("%c", s.top());
+			str += s.top();
 			s.pop();
 		}
+		reverse(str.begin(), str.end());
+		printf("%s\n", str.c_str());
 	}
 	else if (!flag) {
 		while (!s.empty()) {
@@ -101,15 +105,11 @@ int main() {
 					}
 			}
 		}
-		queue<char> q;
+		string str;
 		while (!e.empty()) {
-			q.push(e.top());
+			str += e.top();
 			e.pop();
 		}
-		while (!q.empty()) {
-			printf("%c", q.front());
-			q.pop();
-		}
+		printf("%s\n", str.c_str());
 	}
-
 }
