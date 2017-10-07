@@ -349,6 +349,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1725_Histogram", "1725_Hist
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3986_NiceWord", "3986_NiceWord\3986_NiceWord.vcxproj", "{13E52702-04F7-4DBB-9129-17D5C0EA89B9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2841_FingerOfAlien", "2841_FingerOfAlien\2841_FingerOfAlien.vcxproj", "{A80B89C7-F70A-4E6D-89BE-F8E416817121}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1741,6 +1743,14 @@ Global
 		{13E52702-04F7-4DBB-9129-17D5C0EA89B9}.Release|x64.Build.0 = Release|x64
 		{13E52702-04F7-4DBB-9129-17D5C0EA89B9}.Release|x86.ActiveCfg = Release|Win32
 		{13E52702-04F7-4DBB-9129-17D5C0EA89B9}.Release|x86.Build.0 = Release|Win32
+		{A80B89C7-F70A-4E6D-89BE-F8E416817121}.Debug|x64.ActiveCfg = Debug|x64
+		{A80B89C7-F70A-4E6D-89BE-F8E416817121}.Debug|x64.Build.0 = Debug|x64
+		{A80B89C7-F70A-4E6D-89BE-F8E416817121}.Debug|x86.ActiveCfg = Debug|Win32
+		{A80B89C7-F70A-4E6D-89BE-F8E416817121}.Debug|x86.Build.0 = Debug|Win32
+		{A80B89C7-F70A-4E6D-89BE-F8E416817121}.Release|x64.ActiveCfg = Release|x64
+		{A80B89C7-F70A-4E6D-89BE-F8E416817121}.Release|x64.Build.0 = Release|x64
+		{A80B89C7-F70A-4E6D-89BE-F8E416817121}.Release|x86.ActiveCfg = Release|Win32
+		{A80B89C7-F70A-4E6D-89BE-F8E416817121}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
