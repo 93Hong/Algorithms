@@ -363,6 +363,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12847_HunnyAlba", "12847_Hu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12846_GreedyAlba", "12846_GreedyAlba\12846_GreedyAlba.vcxproj", "{3C22ED9C-159E-415A-99CD-8A75C90E8473}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1620_PocketmonMaster", "1620_PocketmonMaster\1620_PocketmonMaster.vcxproj", "{B4B984EF-3975-4A5C-A4A8-567710357B84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1811,6 +1813,14 @@ Global
 		{3C22ED9C-159E-415A-99CD-8A75C90E8473}.Release|x64.Build.0 = Release|x64
 		{3C22ED9C-159E-415A-99CD-8A75C90E8473}.Release|x86.ActiveCfg = Release|Win32
 		{3C22ED9C-159E-415A-99CD-8A75C90E8473}.Release|x86.Build.0 = Release|Win32
+		{B4B984EF-3975-4A5C-A4A8-567710357B84}.Debug|x64.ActiveCfg = Debug|x64
+		{B4B984EF-3975-4A5C-A4A8-567710357B84}.Debug|x64.Build.0 = Debug|x64
+		{B4B984EF-3975-4A5C-A4A8-567710357B84}.Debug|x86.ActiveCfg = Debug|Win32
+		{B4B984EF-3975-4A5C-A4A8-567710357B84}.Debug|x86.Build.0 = Debug|Win32
+		{B4B984EF-3975-4A5C-A4A8-567710357B84}.Release|x64.ActiveCfg = Release|x64
+		{B4B984EF-3975-4A5C-A4A8-567710357B84}.Release|x64.Build.0 = Release|x64
+		{B4B984EF-3975-4A5C-A4A8-567710357B84}.Release|x86.ActiveCfg = Release|Win32
+		{B4B984EF-3975-4A5C-A4A8-567710357B84}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
