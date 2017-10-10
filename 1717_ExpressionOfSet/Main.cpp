@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int p[100001];
+int p[1000001];
 
 int find(int x) {
 	if (x == p[x])
