@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int map[26][26], N, arr[26], cur = 0;
+int map[26][26], N, arr[100000], cur = 0;
 int dirx[4] = { 0, 0, 1, -1 };
 int diry[4] = { 1, -1, 0, 0 };
 
