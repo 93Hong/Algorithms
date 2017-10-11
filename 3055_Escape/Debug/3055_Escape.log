@@ -1,4 +1,2 @@
 ﻿  Main.cpp
-c:\users\hong\documents\visual studio 2015\algorithm\3055_escape\main.cpp(12): warning C4477: 'scanf' : 서식 문자열 '%c'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
-c:\users\hong\documents\visual studio 2015\algorithm\3055_escape\main.cpp(13): warning C4477: 'scanf' : 서식 문자열 '%c'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
   3055_Escape.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\3055_Escape.exe
