@@ -375,6 +375,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2606_Virus", "2606_Virus\26
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1547_Ball", "1547_Ball\1547_Ball.vcxproj", "{A2747B36-6BFC-41AF-AD4F-1292C53A397F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2161_Card", "2161_Card\2161_Card.vcxproj", "{F60A4025-FA3D-473D-871B-C1ECD215E19E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1871,6 +1873,14 @@ Global
 		{A2747B36-6BFC-41AF-AD4F-1292C53A397F}.Release|x64.Build.0 = Release|x64
 		{A2747B36-6BFC-41AF-AD4F-1292C53A397F}.Release|x86.ActiveCfg = Release|Win32
 		{A2747B36-6BFC-41AF-AD4F-1292C53A397F}.Release|x86.Build.0 = Release|Win32
+		{F60A4025-FA3D-473D-871B-C1ECD215E19E}.Debug|x64.ActiveCfg = Debug|x64
+		{F60A4025-FA3D-473D-871B-C1ECD215E19E}.Debug|x64.Build.0 = Debug|x64
+		{F60A4025-FA3D-473D-871B-C1ECD215E19E}.Debug|x86.ActiveCfg = Debug|Win32
+		{F60A4025-FA3D-473D-871B-C1ECD215E19E}.Debug|x86.Build.0 = Debug|Win32
+		{F60A4025-FA3D-473D-871B-C1ECD215E19E}.Release|x64.ActiveCfg = Release|x64
+		{F60A4025-FA3D-473D-871B-C1ECD215E19E}.Release|x64.Build.0 = Release|x64
+		{F60A4025-FA3D-473D-871B-C1ECD215E19E}.Release|x86.ActiveCfg = Release|Win32
+		{F60A4025-FA3D-473D-871B-C1ECD215E19E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
