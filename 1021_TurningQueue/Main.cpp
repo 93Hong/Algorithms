@@ -1,44 +1,65 @@
 #include <cstdio>
 #include <algorithm>
+#include <deque>
 #pragma warning(disable:4996)
 
 using namespace std;
-int arr[51];
 
 int main() {
-	int N, M;
-	scanf("%d %d", &N, &M);
+	int N = 10, M, ans = 0, cur = 0, size;
+	//scanf("%d %d", &N, &M);
+	//size = M;
 
-	for (int i = 0; i < M; i++) {
-		int num;
-		scanf("%d", &num);
-		arr[i] = num;
+	deque<int> v;
+
+	for (int i = 1; i <= N; i++)
+		v.push_back(i);
+
+	for (int i = 0; i < N; i++)
+		printf("%d ", v[i]);
+	printf("\n");
+	int cnt = 0;
+	for (int i = 0; cnt < N; i--) {
+		printf("%d ", v[i]);
+		if (i == 0)
+			i = N;
+		cnt++;
 	}
-	printf("\nasn\n");
 
-	int cur = 0;
-	int l = 0, r = 0;
-	for (int i = 0; i < M; i++) {
-		int tmp = arr[i] + cur;
-		while (tmp != 1) {
-			if (tmp > N / 2) {
-				cur++;
-				r++;
-				tmp++;
-				if (tmp > M)
-					tmp = 1;
-			}
-			else {
-				cur--;
-				l++;
-				tmp--;
-				if (tmp == 0)
-					tmp = M;
-			}
+	while (M--) {
+		int tmp;
+		scanf("%d", &tmp);
+
+		if (v[cur] == tmp) {
+			v[cur] = 0;
+			cur++;
+			continue;
 		}
-		cur--;
-		N--;
+
+		int right = 0, left = 0;
+		for (int i = cur; right < size; i = (i + 1) % size) {
+			if (v[i] == 0) {
+				continue;
+			}
+			if (v[i] == tmp)
+				break;
+			right++;
+		}
+		for (int i = cur; left < size; i = (i - 1) % size) {
+			if (v[i] == 0) {
+				continue;
+			}
+			if (v[i] == tmp) {
+				v[i] = 0;
+				cur = (i + 1) % size;
+				break;
+			}
+			left++;
+		}
+
+		ans += min(left, right);
+		size--;
 	}
 
-	printf("%d\n", l+r);
+	printf("%d\n", ans);
 }
