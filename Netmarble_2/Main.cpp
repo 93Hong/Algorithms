@@ -13,9 +13,13 @@ int main() {
 	int n, num = 2;
 	scanf("%d", &n);
 	
+	vector<vector<int>> customer; // {{1, 2}, {2, 3}, {1, 3}};
+	n = customer.size();
+
 	for (int i = 0; i < n; i++) {
 		int a, b;
-		scanf("%d %d", &a, &b);
+		a = customer[i][0];
+		b = customer[i][1];
 
 		if (b == 1) {
 			q.push(a);
