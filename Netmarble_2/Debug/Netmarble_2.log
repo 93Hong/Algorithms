@@ -1,0 +1,3 @@
+﻿  Main.cpp
+c:\users\hong\documents\visual studio 2015\algorithm\netmarble_2\main.cpp(41): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Netmarble_2.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\Netmarble_2.exe
