@@ -397,6 +397,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5532_VacationHomework", "55
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2979_TruckParking", "2979_TruckParking\2979_TruckParking.vcxproj", "{F9DD6071-79D8-445A-8523-2B2F21E9883B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2174_RobotSimulation", "2174_RobotSimulation\2174_RobotSimulation.vcxproj", "{9277729D-2A72-4A44-968C-B668F418AFB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1981,6 +1983,14 @@ Global
 		{F9DD6071-79D8-445A-8523-2B2F21E9883B}.Release|x64.Build.0 = Release|x64
 		{F9DD6071-79D8-445A-8523-2B2F21E9883B}.Release|x86.ActiveCfg = Release|Win32
 		{F9DD6071-79D8-445A-8523-2B2F21E9883B}.Release|x86.Build.0 = Release|Win32
+		{9277729D-2A72-4A44-968C-B668F418AFB0}.Debug|x64.ActiveCfg = Debug|x64
+		{9277729D-2A72-4A44-968C-B668F418AFB0}.Debug|x64.Build.0 = Debug|x64
+		{9277729D-2A72-4A44-968C-B668F418AFB0}.Debug|x86.ActiveCfg = Debug|Win32
+		{9277729D-2A72-4A44-968C-B668F418AFB0}.Debug|x86.Build.0 = Debug|Win32
+		{9277729D-2A72-4A44-968C-B668F418AFB0}.Release|x64.ActiveCfg = Release|x64
+		{9277729D-2A72-4A44-968C-B668F418AFB0}.Release|x64.Build.0 = Release|x64
+		{9277729D-2A72-4A44-968C-B668F418AFB0}.Release|x86.ActiveCfg = Release|Win32
+		{9277729D-2A72-4A44-968C-B668F418AFB0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

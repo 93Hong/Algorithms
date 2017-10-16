@@ -2,26 +2,10 @@
 #include <vector>
 using namespace std;
 
-vector<int> solution(vector<int> truck, vector<int> w) {
-	vector<int> answer;
-	bool ch = false;
+int main() {
+	int n = 1;
 
-	for (int i = 0; i < w.size(); i++) {
-		for (int j = 0; j < truck.size(); j++) {
-			if (w[i] <= truck[j]) {
-				truck[j] -= w[i];
-				answer.push_back(j + 1);
-				ch = true;
-				break;
-			}
-		}
-
-		if (ch)
-			ch = false;
-
-		else
-			answer.push_back(-1);
+	for (int i = 10; i > 0; i--) {
+		printf("%d\n", (i - n) % 4);
 	}
-
-	return answer;
 }
