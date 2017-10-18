@@ -13,28 +13,28 @@ bool solve(int y, int x) {
 	int cnt = 1;
 	q.push(make_pair(y, x));
 	checked[y][x] = 1;
+	char c = map[y][x];
 
 	while (!q.empty()) {
-		int dy = q.front().first;
-		int dx = q.front().second;
-
+		int yy = q.front().first;
+		int xx = q.front().second;
+		
+		q.pop();
 		for (int i = 0; i < 4; i++) {
-			dy += dir[i][0];
-			dx += dir[i][1];
+			int dy = yy + dir[i][0];
+			int dx = xx + dir[i][1];
 
 			if (dy < 0 || dy >= 12 || dx < 0 || dx >= 6)
 				continue;
 
-			if (checked[dy][dx] != 0)
-				continue;
+			if (checked[dy][dx] == 0 && map[dy][dx] == c) {
 
-			q.push(make_pair(dy, dx));
-			checked[dy][dx] = 1;
-			cnt++;
+				q.push(make_pair(dy, dx));
+				checked[dy][dx] = 1;
+				cnt++;
+			}
 		}
 	}
-
-	printf("%d\n", cnt);
 
 	if (cnt >= 4) {
 		for (int i = 11; i >= 0; i--) {
@@ -60,7 +60,7 @@ int main() {
 	bool flag = true;
 	int ans = 0;
 
-//	while (flag) {
+	while (flag) {
 		bool ok = false;
 		for (int i = 11; i >= 0; i--) {
 			for (int j = 0; j < 6; j++) {
@@ -71,32 +71,25 @@ int main() {
 			}
 		}
 
-		for (int i = 0; i < 12; i++) {
-			for (int j = 0; j < 6; j++) {
-				printf("%c", map[i][j]);
-			}printf("\n");
-		}
-
 		if (ok) {
-			for (int i = 10; i >= 0; i--) {
+			for (int i = 0; i < 12; i++) {
 				for (int j = 0; j < 6; j++) {
 					if (map[i][j] == ',') {
-						for (int k = i; k < 10; k++) {
-							map[k][j] = map[k + 1][j];
+						for (int k = 11; k > 0; k--) {
+							map[k][j] = map[k - 1][j];
 						}
+						map[0][j] = '.';
 					}
 				}
 			}
 		}
+		else {
+			break;
+		}
 
 		ans++;
-//	}
-
-		for (int i = 0; i < 12; i++) {
-			for (int j = 0; j < 6; j++) {
-				printf("%c", map[i][j]);
-			}printf("\n");
-		}
+		memset(checked, 0, sizeof(checked));
+	}
 
 	printf("%d\n", ans);
 }
