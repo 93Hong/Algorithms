@@ -1,4 +1,5 @@
 #include <cstdio>
+#include <cstring>
 #include <queue>
 #pragma warning(disable:4996)
 
@@ -43,12 +44,16 @@ bool solve(int y, int x) {
 					map[i][j] = ',';
 			}
 		}
+		memset(checked, 0, sizeof(checked));
 		return true;
 	}
+	memset(checked, 0, sizeof(checked));
 	return false;
 }
 
 int main() {
+
+
 	char c;
 	for (int i = 0; i < 12; i++) {
 		for (int j = 0; j < 6; j++) {
@@ -88,7 +93,7 @@ int main() {
 		}
 
 		ans++;
-		memset(checked, 0, sizeof(checked));
+		
 	}
 
 	printf("%d\n", ans);

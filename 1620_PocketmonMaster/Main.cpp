@@ -8,7 +8,7 @@
 using namespace std;
 
 vector<pair<string, int>> s;
-string st[100001];
+string st[100002];
 
 int bst(string tmp, int start, int end) {
 	int mid = (start + end) / 2;
@@ -30,20 +30,20 @@ int main() {
 	scanf("%d %d", &N, &M);
 
 	for (int i = 1; i <= N; i++) {
-		string tmp;
-		cin >> tmp;
-		s.push_back(make_pair(tmp, i));
-		st[i] = tmp;
+		char ch[20];
+		scanf("%s", ch);
+		s.push_back(make_pair(ch, i));
+		st[i] = ch;
 	}
 	sort(begin(s), end(s));
 
 	for (int i = 0; i < M; i++) {
-		string tmp;
-		cin >> tmp;
-		if (isdigit(tmp[0]))
-			printf("%s\n", st[stoi(tmp)].c_str());
+		char ch[20];
+		scanf("%s", ch);
+		if (isdigit(ch[0]))
+			printf("%s\n", st[stoi(ch)].c_str());
 		else {
-			bst(tmp, 0, N - 1);
+			bst(ch, 0, N - 1);
 		}
 	}
 }
