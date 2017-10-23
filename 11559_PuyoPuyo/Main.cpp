@@ -1,4 +1,5 @@
 #include <cstdio>
+#include <string>
 #include <queue>
 #include <cstring>
 #pragma warning(disable: 4996)
@@ -27,7 +28,7 @@ void solve(int x, int y) {
 			int xx = x + dir[i][0];
 			int yy = y + dir[i][1];
 
-			if (xx < 0 || xx > 12 || yy < 0 || yy > 6)
+			if (xx < 0 || xx >= 12 || yy < 0 || yy >= 6)
 				continue;
 
 			if (check[xx][yy] == 0 && map[xx][yy] == c) {
@@ -57,39 +58,44 @@ int main() {
 		scanf("%c", &c);
 	}
 
-
 	while (1) {
 		memset(check, 0, sizeof(check));
 
+		// .이 아닌 캐릭터 찾아서 bfs로 개수 센 후 4이상이면 queue에 추가
 		for (int i = 0; i < 12; i++) {
 			for (int j = 0; j < 6; j++) {
-				if (map[i][j] != '.' && map[i][j] != 'x' && check[i][j] == 0) {
+				if (map[i][j] != '.' && map[i][j] != ' ' && check[i][j] == 0) {
 					solve(i, j);
 				}
 			}
 		}
 
+		// 4이상인거 하나도 못찾으면 끝
 		if (qq.empty())
 			break;
 		
+		// 4 이상인것들 x로 다 바꿈
 		while (!qq.empty()) {
-			map[qq.front().first][qq.front().second] = 'x';
+			map[qq.front().first][qq.front().second] = '.';
 			qq.pop();
 		}
 
-		for (int i = 0; i < 12; i++) {
-			for (int j = 0; j < 6; j++) {
-				if (map[i][j] == 'x') {
-					for (int k = i; k > 0; k--) {
-						map[k][j] = map[k - 1][j];
-					}
-					map[0][j] = '.';
+		// 위에서부터 x 찾아서 한칸씩 당김/////////////////////
+		for (int j = 0; j < 6; j++) {
+			string s;
+			for (int i = 11; i >= 0; i--) {
+				if (map[i][j] != '.') {
+					s += map[i][j];
 				}
 			}
+			for (int i = 0; i < s.length(); i++)
+				map[11 - i][j] = s[i];
+			for (int i = s.length(); i < 12; i++)
+				map[11 - i][j] = '.';
 		}
+		
 
 		ans++;
-
 	}
 
 	printf("%d\n", ans);
