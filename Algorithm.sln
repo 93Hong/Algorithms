@@ -421,6 +421,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1614_FingersOfOsik", "1614_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3987_Voyager", "3987_Voyager\3987_Voyager.vcxproj", "{C5417564-D083-47F9-BA83-FA2F7040E314}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5566_DiceGame", "5566_DiceGame\5566_DiceGame.vcxproj", "{411D05A4-1768-4CE4-A861-0DFD73677508}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2101,6 +2103,14 @@ Global
 		{C5417564-D083-47F9-BA83-FA2F7040E314}.Release|x64.Build.0 = Release|x64
 		{C5417564-D083-47F9-BA83-FA2F7040E314}.Release|x86.ActiveCfg = Release|Win32
 		{C5417564-D083-47F9-BA83-FA2F7040E314}.Release|x86.Build.0 = Release|Win32
+		{411D05A4-1768-4CE4-A861-0DFD73677508}.Debug|x64.ActiveCfg = Debug|x64
+		{411D05A4-1768-4CE4-A861-0DFD73677508}.Debug|x64.Build.0 = Debug|x64
+		{411D05A4-1768-4CE4-A861-0DFD73677508}.Debug|x86.ActiveCfg = Debug|Win32
+		{411D05A4-1768-4CE4-A861-0DFD73677508}.Debug|x86.Build.0 = Debug|Win32
+		{411D05A4-1768-4CE4-A861-0DFD73677508}.Release|x64.ActiveCfg = Release|x64
+		{411D05A4-1768-4CE4-A861-0DFD73677508}.Release|x64.Build.0 = Release|x64
+		{411D05A4-1768-4CE4-A861-0DFD73677508}.Release|x86.ActiveCfg = Release|Win32
+		{411D05A4-1768-4CE4-A861-0DFD73677508}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
