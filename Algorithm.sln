@@ -437,6 +437,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2170_DrawLine", "2170_DrawL
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kakao_test_IU", "Kakao_test_IU\Kakao_test_IU.vcxproj", "{40D1D893-D592-4217-83FC-10F78E5A83EE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2836_WaterTaxi", "2836_WaterTaxi\2836_WaterTaxi.vcxproj", "{749D3751-3414-45B0-B455-E27802E1074F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2181,6 +2183,14 @@ Global
 		{40D1D893-D592-4217-83FC-10F78E5A83EE}.Release|x64.Build.0 = Release|x64
 		{40D1D893-D592-4217-83FC-10F78E5A83EE}.Release|x86.ActiveCfg = Release|Win32
 		{40D1D893-D592-4217-83FC-10F78E5A83EE}.Release|x86.Build.0 = Release|Win32
+		{749D3751-3414-45B0-B455-E27802E1074F}.Debug|x64.ActiveCfg = Debug|x64
+		{749D3751-3414-45B0-B455-E27802E1074F}.Debug|x64.Build.0 = Debug|x64
+		{749D3751-3414-45B0-B455-E27802E1074F}.Debug|x86.ActiveCfg = Debug|Win32
+		{749D3751-3414-45B0-B455-E27802E1074F}.Debug|x86.Build.0 = Debug|Win32
+		{749D3751-3414-45B0-B455-E27802E1074F}.Release|x64.ActiveCfg = Release|x64
+		{749D3751-3414-45B0-B455-E27802E1074F}.Release|x64.Build.0 = Release|x64
+		{749D3751-3414-45B0-B455-E27802E1074F}.Release|x86.ActiveCfg = Release|Win32
+		{749D3751-3414-45B0-B455-E27802E1074F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
