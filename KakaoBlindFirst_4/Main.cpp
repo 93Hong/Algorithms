@@ -94,3 +94,71 @@ int main() {
 
 	printf("%s\n", solution(10, 60, 1, timetable).c_str());
 }
+
+
+#include <cstdio>
+#include <algorithm>
+#include <queue>
+#include <vector>
+#include <string>
+#pragma warning(disable:4996)
+
+using namespace std;
+
+int main() {
+	int n, t, m;
+	scanf("%d %d %d", &n, &t, &m);
+
+	vector<string> v;
+	v.push_back("23:59");
+	v.push_back("23:59");
+	v.push_back("23:59");
+	v.push_back("23:59");
+	v.push_back("23:59");
+	v.push_back("23:59");
+	v.push_back("23:59");
+	v.push_back("23:59");
+	v.push_back("23:59");
+	v.push_back("23:59");
+	v.push_back("23:59");
+	v.push_back("23:59");
+	v.push_back("23:59");
+	v.push_back("23:59");
+	v.push_back("23:59");
+	v.push_back("23:59");
+	sort(v.begin(), v.end());
+
+	queue<int> q;
+
+	for (int i = 0; i < v.size(); i++) {
+		q.push(stoi(v[i].substr(0, 2)) * 100 + stoi(v[i].substr(3, 4)));
+	}
+
+	int time = 900, ans = 900;
+
+	for (int i = 0; i < n; i++) {
+		int num = 0, last = 0;
+		for (int j = 0; j < m; j++) {
+			if (!q.empty() && q.front() <= time) {
+				last = q.front();
+				q.pop();
+				num++;
+			}
+		}
+		if (i == n - 1) {
+			if (num == m) {
+				ans = last - 1;
+			}
+			else {
+				ans = time;
+			}
+		}
+
+		time += t;
+		if (time % 100 >= 60) {
+			time += 100;
+			time -= 60;
+		}
+	}
+	printf("%d\n", ans);
+}
