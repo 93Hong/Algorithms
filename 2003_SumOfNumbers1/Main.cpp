@@ -13,19 +13,19 @@ int main() {
 	for (int i = 0; i < N; i++)
 		scanf("%d", &arr[i]);
 
-	int ans = 0;
+	int ans = 0, l = 0, r = 0;
 	long long tmp = 0;
-	for (int i = 0; i < N; i++) {
-		tmp = 0;
-		for (int j = i; j < N; j++) {
-			tmp += arr[j];
-			if (M < tmp)
-				break;
-			if (M == tmp) {
-				ans++;
-				break;
-			}
-		}
+
+	while (1) {
+		if (tmp >= M)
+			tmp -= arr[l++];
+		else if (r == N)
+			break;
+		else
+			tmp += arr[r++];
+
+		if (tmp == M)
+			ans++;
 	}
 
 	printf("%d\n", ans);
