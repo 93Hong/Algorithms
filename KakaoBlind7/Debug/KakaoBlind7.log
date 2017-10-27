@@ -1,6 +1,7 @@
 ﻿  Main.cpp
-c:\users\hong\documents\visual studio 2015\algorithm\kakaoblind7\main.cpp(29): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\hong\documents\visual studio 2015\algorithm\kakaoblind7\main.cpp(53): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\hong\documents\visual studio 2015\algorithm\kakaoblind7\main.cpp(57): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\hong\documents\visual studio 2015\algorithm\kakaoblind7\main.cpp(59): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\kakaoblind7\main.cpp(33): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\kakaoblind7\main.cpp(42): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\kakaoblind7\main.cpp(66): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\kakaoblind7\main.cpp(70): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\kakaoblind7\main.cpp(72): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   KakaoBlind7.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\KakaoBlind7.exe

@@ -24,6 +24,19 @@ int main() {
 	v.push_back("2016 - 09-15 20:60 : 60.966 0.381s");
 	v.push_back("2016 - 09-15 20:60 : 62.066 2.62s");
 
+
+	int h, m = 0;
+	double s = 0;
+	std::string time = "10:40:03";
+
+	if (sscanf(time.c_str(), "%d:%d:%lf", &h, &m, &s) >= 2) {
+		int secs = h * 3600 + m * 60 + s;
+	}
+	printf("%d %d %lf\n", h, m, s);
+
+
+
+
 	vector<pair<int, int>> v2;
 
 	for (int i = 0; i < v.size(); i++) {
@@ -40,7 +53,7 @@ int main() {
 				num2 *= 10;
 				num2 += v[i][j] - '0';
 			}
-			else if (v[i][j] != '.'){
+			else if (v[i][j] != '.') {
 				num2 *= 10;
 			}
 		}
@@ -48,7 +61,7 @@ int main() {
 		v2.push_back(make_pair(num - num2, num));
 	}
 
-	
+
 
 	for (int i = 0; i < v2.size(); i++)
 		printf("%d %d\n", v2[i].first, v2[i].second);

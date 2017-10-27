@@ -447,6 +447,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2266_SafeTest", "2266_SafeT
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KakaoBlind7", "KakaoBlind7\KakaoBlind7.vcxproj", "{5BDBE7D1-C8C9-4ECE-B187-9786E904B88F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2003_SumOfNumbers1", "2003_SumOfNumbers1\2003_SumOfNumbers1.vcxproj", "{099471A3-6DF0-4BA3-8BF8-97E130446684}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2231,6 +2233,14 @@ Global
 		{5BDBE7D1-C8C9-4ECE-B187-9786E904B88F}.Release|x64.Build.0 = Release|x64
 		{5BDBE7D1-C8C9-4ECE-B187-9786E904B88F}.Release|x86.ActiveCfg = Release|Win32
 		{5BDBE7D1-C8C9-4ECE-B187-9786E904B88F}.Release|x86.Build.0 = Release|Win32
+		{099471A3-6DF0-4BA3-8BF8-97E130446684}.Debug|x64.ActiveCfg = Debug|x64
+		{099471A3-6DF0-4BA3-8BF8-97E130446684}.Debug|x64.Build.0 = Debug|x64
+		{099471A3-6DF0-4BA3-8BF8-97E130446684}.Debug|x86.ActiveCfg = Debug|Win32
+		{099471A3-6DF0-4BA3-8BF8-97E130446684}.Debug|x86.Build.0 = Debug|Win32
+		{099471A3-6DF0-4BA3-8BF8-97E130446684}.Release|x64.ActiveCfg = Release|x64
+		{099471A3-6DF0-4BA3-8BF8-97E130446684}.Release|x64.Build.0 = Release|x64
+		{099471A3-6DF0-4BA3-8BF8-97E130446684}.Release|x86.ActiveCfg = Release|Win32
+		{099471A3-6DF0-4BA3-8BF8-97E130446684}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
