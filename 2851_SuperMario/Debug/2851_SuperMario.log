@@ -1,0 +1,3 @@
+﻿  Main.cpp
+c:\users\hong\documents\visual studio 2015\algorithm\2851_supermario\main.cpp(7): warning C4101: 'prev' :참조되지 않은 지역 변수입니다.
+  2851_SuperMario.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\2851_SuperMario.exe
