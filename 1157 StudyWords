@@ -1,0 +1,41 @@
+#include <cstdio>
+#include <iostream>
+#include <string>
+#pragma warning(disable:4996)
+
+using namespace std;
+
+int arr[27];
+
+int main() {
+	string str;
+
+	cin >> str;
+
+	for (int i = 0; i < str.length(); i++) {
+		if (isupper(str[i])) {
+			arr[str[i] - 'A']++;
+		}
+		else
+			arr[str[i] - 'a']++;
+	}
+
+	int maxC = 0, maxV = 0;
+	for (int i = 0; i < 27; i++) {
+		if (maxC < arr[i]) {
+			maxC = arr[i];
+			maxV = i;
+		}
+	}
+
+	for (int i = 0; i < 27; i++) {
+		if (maxV == i)
+			continue;
+		if (maxC == arr[i]) {
+			printf("?\n");
+			return 0;
+		}
+	}
+	char c = 'A' + maxV;
+	printf("%c\n", c);
+}
