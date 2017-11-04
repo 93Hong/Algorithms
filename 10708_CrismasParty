@@ -1,0 +1,32 @@
+#include <cstdio>
+#pragma warning(disable:4996)
+
+using namespace std;
+
+int arr[101], score[101];
+
+int main() {
+	int N, M;
+	scanf("%d", &N);
+	scanf("%d", &M);
+	for (int i = 0; i < M; i++)
+		scanf("%d", &arr[i]);
+
+	for (int i = 0; i < M; i++) {
+		int cnt = 0;
+		for (int j = 0; j < N; j++) {
+			int num;
+			scanf("%d", &num);
+
+			if (num == arr[i]) {
+				score[j]++;
+			}
+			else
+				cnt++;
+		}
+		score[arr[i] - 1] += cnt;
+	}
+
+	for (int i = 0; i < N; i++)
+		printf("%d\n", score[i]);
+}
