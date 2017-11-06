@@ -1,0 +1,27 @@
+#include <cstdio>
+#pragma warning(disable:4996)
+
+using namespace std;
+
+int main() {
+	int A, B;
+	scanf("%d %d", &A, &B);
+	bool bigA = false;
+
+	int a = 0, b = 0;
+	for (int i = 0; i < 2; i++) {
+		a += A % 10;
+		A /= 10;
+		a *= 10;
+		b += B % 10;
+		B /= 10;
+		b *= 10;
+	}
+	a += A % 10;
+	b += B % 10;
+	
+	if (a > b)
+		printf("%d\n", a);
+	else
+		printf("%d\n", b);
+}
