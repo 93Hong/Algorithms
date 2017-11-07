@@ -1,0 +1,4 @@
+﻿  Main.cpp
+c:\users\hong\documents\visual studio 2015\algorithm\codility_pro2\main.cpp(13): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\hong\documents\visual studio 2015\algorithm\codility_pro2\main.cpp(35): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+  Codility_Pro2.vcxproj -> C:\Users\hong\Documents\Visual Studio 2015\Algorithm\Debug\Codility_Pro2.exe
