@@ -12,10 +12,7 @@ int main() {
 	unordered_set<string> stringSet;
 	vector<int> v;
 	int ans = 0, stringSize = S.length();
-
 	char lastChar = S[stringSize - 1], firstChar = S[0];
-
-	
 
 	for (int i = 0; i < stringSize - 1; i++) {
 		char c = S[i];

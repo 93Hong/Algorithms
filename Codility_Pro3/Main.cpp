@@ -10,10 +10,6 @@ queue<int> q;
 vector<int> graph[100001];
 int d[100001];
 
-void so(vector<int> &T) {
-	T.size()
-}
-
 int main() {
 	
 	int a, b;
