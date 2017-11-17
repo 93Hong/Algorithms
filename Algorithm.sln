@@ -483,6 +483,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Codility_Pro4", "Codility_P
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodilityTest2", "CodilityTest2\CodilityTest2.vcxproj", "{78ACFAB6-3125-47DA-B5BF-6B975D280E78}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1914_HanoiTower", "1914_HanoiTower\1914_HanoiTower.vcxproj", "{CBD5283E-BB78-48B3-817E-3A17B1111B1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2411,6 +2413,14 @@ Global
 		{78ACFAB6-3125-47DA-B5BF-6B975D280E78}.Release|x64.Build.0 = Release|x64
 		{78ACFAB6-3125-47DA-B5BF-6B975D280E78}.Release|x86.ActiveCfg = Release|Win32
 		{78ACFAB6-3125-47DA-B5BF-6B975D280E78}.Release|x86.Build.0 = Release|Win32
+		{CBD5283E-BB78-48B3-817E-3A17B1111B1A}.Debug|x64.ActiveCfg = Debug|x64
+		{CBD5283E-BB78-48B3-817E-3A17B1111B1A}.Debug|x64.Build.0 = Debug|x64
+		{CBD5283E-BB78-48B3-817E-3A17B1111B1A}.Debug|x86.ActiveCfg = Debug|Win32
+		{CBD5283E-BB78-48B3-817E-3A17B1111B1A}.Debug|x86.Build.0 = Debug|Win32
+		{CBD5283E-BB78-48B3-817E-3A17B1111B1A}.Release|x64.ActiveCfg = Release|x64
+		{CBD5283E-BB78-48B3-817E-3A17B1111B1A}.Release|x64.Build.0 = Release|x64
+		{CBD5283E-BB78-48B3-817E-3A17B1111B1A}.Release|x86.ActiveCfg = Release|Win32
+		{CBD5283E-BB78-48B3-817E-3A17B1111B1A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

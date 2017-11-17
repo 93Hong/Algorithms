@@ -22,7 +22,7 @@ string solution(int A, int B, int C, int D, int E, int F) {
 	sort(ve2.begin(), ve2.end());
 
 	// 예외처리 (시간으로 표현할 수 없는 경우)
-	if (ve1[0] > 2 || (ve1[0] == 2 && ve1[1] > 3) || ve2.size() >= 4) return "NOT POSSIBLE";
+	if (ve2.size() >= 4 || (ve1[0] == 2 && ve1[1] > 3) || ve1[0] > 2) return "NOT POSSIBLE";
 
 	// ve1로만 출력
 	if (ve2.size() == 0) {
@@ -42,4 +42,8 @@ string solution(int A, int B, int C, int D, int E, int F) {
 	}
 
 	return answer;
+}
+
+int main() {
+	printf("%s\n", solution(6, 6, 6, 6, 6, 6).c_str());
 }
