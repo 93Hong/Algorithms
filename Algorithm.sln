@@ -487,6 +487,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1914_HanoiTower", "1914_Han
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1991_TreeTravasal", "1991_TreeTravasal\1991_TreeTravasal.vcxproj", "{03D2FA3C-EF36-456F-9FD7-4EC1DDA5196F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11729_HanoiTowerMoveTrace", "11729_HanoiTowerMoveTrace\11729_HanoiTowerMoveTrace.vcxproj", "{F853D4B1-13AE-4177-98B5-8D7CF24AB882}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2431,6 +2433,14 @@ Global
 		{03D2FA3C-EF36-456F-9FD7-4EC1DDA5196F}.Release|x64.Build.0 = Release|x64
 		{03D2FA3C-EF36-456F-9FD7-4EC1DDA5196F}.Release|x86.ActiveCfg = Release|Win32
 		{03D2FA3C-EF36-456F-9FD7-4EC1DDA5196F}.Release|x86.Build.0 = Release|Win32
+		{F853D4B1-13AE-4177-98B5-8D7CF24AB882}.Debug|x64.ActiveCfg = Debug|x64
+		{F853D4B1-13AE-4177-98B5-8D7CF24AB882}.Debug|x64.Build.0 = Debug|x64
+		{F853D4B1-13AE-4177-98B5-8D7CF24AB882}.Debug|x86.ActiveCfg = Debug|Win32
+		{F853D4B1-13AE-4177-98B5-8D7CF24AB882}.Debug|x86.Build.0 = Debug|Win32
+		{F853D4B1-13AE-4177-98B5-8D7CF24AB882}.Release|x64.ActiveCfg = Release|x64
+		{F853D4B1-13AE-4177-98B5-8D7CF24AB882}.Release|x64.Build.0 = Release|x64
+		{F853D4B1-13AE-4177-98B5-8D7CF24AB882}.Release|x86.ActiveCfg = Release|Win32
+		{F853D4B1-13AE-4177-98B5-8D7CF24AB882}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
