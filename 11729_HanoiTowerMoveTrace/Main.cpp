@@ -4,21 +4,15 @@
 
 using namespace std;
 
-void hanoi(int n, int start, int end, int buffer) {
-	if (n == 1) {
-		printf("%d %d\n", start, end);
-		return;
-	}
-	hanoi(n - 1, start, buffer, end);
-	hanoi(1, start, end, buffer);
-	hanoi(n - 1, buffer, end, start);
-}
 
 int main() {
-	int N;
+	
+	int cnt = 0;
+	for (int i = 0; i <= 1024; ++i) {
+		if ((i & (i - 1)) == 0) {
+			++cnt;
+		}
+	}
+	printf("%d\n", cnt);
 
-	scanf("%d", &N);
-	long long cnt = pow(2, N) - 1;
-	printf("%lld\n", cnt);
-	hanoi(N, 1, 3, 2);
 }
